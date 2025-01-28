@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Gilory';
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.todo-window-container{
+    height: auto;
+    width: 450px;
+    border-radius: 25px;
+    background-color: #d4d4d4c5;
+    box-shadow: 20px 20px 60px 
+    #00000041,inset -20px -20px 60px #c0c0c040;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    flex-direction: column;
+}
+
+h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    padding: 20px;
+    margin: auto;
+}
+
+.taskInputs{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    width: 81%;
+    padding: 5px;
+    border-radius: 50px;
+    margin-bottom: 25px;
+
+}
+
+.Inputsec{
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    flex: 2;
+
+
+}
+
+.Inputsec input{
+    background-color: transparent;
+}
+
+.btn{
+    padding: 15px;
+    width: 100px;
+    border: none;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(253, 26, 26);
+    color: white;
+    padding-left: 5px;
+}
+
+.todoTask{
+    display: flex;
+    width: 100%;
+    min-width: 390px;
+    padding: 0px 40px;
+}
+
+ul{
+    display: flex;
+    padding: 0px 10px;
+    list-style: none;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+li{
+    background-color: white;
+    width: 325px;
+    padding: 15px 10px;
+    border-radius: 25px;
+
+}
